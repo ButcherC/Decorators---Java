@@ -8,6 +8,6 @@ NumberedOutput: this adds newlines, and precedes each write with the current lin
 
 TeeOutput: write to two streams at a time; the one it wraps, plus one it receives as a constructor argument.
 
-FilterOutput: writes only objects that satisfy a certain condition (unary predicate), received as a constructor parameter. (Gives user a choice of two prediates).
+FilterOutput: writes only objects that satisfy a certain condition (unary predicate), received as a constructor parameter. (Gives user a choice of two predicates).
 
 The decorated class is StreamOutput and the file used to test the decorators is decorator.dat.
